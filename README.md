@@ -2,7 +2,7 @@
 
 I build things at the intersection of **artificial intelligence** and **financial systems** — from quantitative trading strategies and M&A intelligence tools to multi-agent pipelines and regulatory risk engines. Telecommunications Engineer by training, currently doing an MSc in CS + Finance. Based in New York.
 
-If there's a financial problem that can be automated, structured, or made smarter with AI — I'm probably already building it.
+If there's a financial problem that can be automated, structured, or made smarter with AI I would love to build it with you!
 
 ---
 
