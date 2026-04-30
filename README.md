@@ -1,82 +1,76 @@
-### Engineer. Consultant. Obsessed with AI × Finance.
+# Iñigo Valenzuela Nuñez
 
-I build things at the intersection of **artificial intelligence** and **financial systems** — from quantitative trading strategies and M&A intelligence tools to multi-agent pipelines and regulatory risk engines. Telecommunications Engineer by training, currently doing an MSc in CS + Finance. Based in New York.
+Technology consultant and full-stack engineer working at the intersection of artificial intelligence and financial systems. Currently shipping regulatory technology in a New York broker-dealer (EU banking group), with a parallel focus on multi-agent LLM architectures, quantitative research, and production-grade SaaS.
 
-If there's a financial problem that can be automated, structured, or made smarter with AI I would love to build it with you!
+Dual master's in Computer Science and Finance (Illinois Institute of Technology) and Telecommunications Engineering (Polytechnic University of Madrid, top 2% of cohort).
 
----
-
-## 🧠 What I'm Working On
-
-- 📈 **DTW Pair Trading** — Dynamic Time Warping for statistical arbitrage across crypto and equity pairs
-- 🤖 Expanding into **multi-agent LLM architectures** for real-world financial workflows
-- 🌐 Learning **Cloud Computing & Networking** at scale
+Based in New York. Open to collaboration on quantitative finance, AI agent systems, and anything in the overlap.
 
 ---
 
-## 🏗️ Projects
+## Focus Areas
 
-### ⚡ AI × Finance
-
-| Project | What it does |
-|---|---|
-| **LM_Hackathon** — *Velocity Settlement* | Bloomberg Terminal-style platform for the secondary loan market. AI parses trade PDFs (50+ data points), runs a legal risk engine, and auto-generates LMA documents |
-| **AcquiSense** | M&A intelligence platform. Scrapes BORME, CNMV, BOE and automatically detects acquisition signals from corporate events |
-| **TFM — Crypto Cointegration** | Academic research applying Engle-Granger & Johansen cointegration tests to crypto pairs with walk-forward backtesting |
-| **SanReg / RegWatch ES** | Ingests Spanish sanctions data (AEPD, CNMC, BOE), normalizes it, and computes decay-based regulatory risk scores |
-| **DTW Pair Trading** | Dynamic Time Warping for identifying cointegrated asset pairs and generating market-neutral trading signals |
-
-### 🤖 AI & Agents
-
-| Project | What it does |
-|---|---|
-| **GaliciaFireguard** | Multi-agent wildfire emergency response system. NASA satellite + Copernicus + weather APIs + Amazon Nova AI → real-time command dashboard for firefighters |
-| **ItemRadar / Lost&Found** | Gemini Vision matches lost items with finders via a multi-agent pipeline, Telegram bots, vector search, and WhatsApp |
-| **adkPodcast** | Multi-agent podcast generator (Google ADK): Research → Script → Voice → publish-ready audio episode |
-| **self-hosted-ai-starter-kit** | Docker Compose stack: n8n + Ollama (local LLMs) + Qdrant (vector DB) + PostgreSQL. Full local AI ops stack |
-| **consultoriapodcast** | Podcast pipeline for consulting content — Gemini + Google Cloud TTS |
-
-### 💰 Full-Stack Products
-
-| Project | What it does |
-|---|---|
-| **misfinanzas** | Personal finance manager — Next.js web + Expo mobile sharing a Supabase backend |
-| **AprobadoEnMarcha** | Monetizable exam prep SaaS with Stripe payments and Supabase |
-| **HomeSwapp** | Peer-to-peer furniture marketplace with real-time auction bidding (Flutter + Django + MySQL + Stripe) |
-| **smartvelSAS** | B2B HR tool: time tracking, vacation requests, admin dashboards (Next.js + Prisma + PostgreSQL) |
-| **EasyPadelLeague / EZPADEL** | Padel tournament manager with QR result submission, real-time leaderboards, and PWA |
-
-### 🛠️ Tools & Scraping
-
-| Project | What it does |
-|---|---|
-| **WebScrappingC** | Playwright + Cheerio + Firecrawl scraping platform with structured Excel export |
-| **CarBinder** | Flutter app for managing vehicle docs with Firebase and camera integration |
+- **Regulatory technology and capital markets infrastructure** — multi-asset reporting pipelines, COREP, MTM reconciliation, GL decomposition
+- **Multi-agent LLM systems** — orchestration, retrieval, evaluation, production deployment
+- **Quantitative research** — statistical arbitrage, cointegration, time-series methods
+- **Full-stack product delivery** — from discovery and architecture to deployment and customer success
 
 ---
 
-## 🛠️ Stack
+## Selected Projects
+
+### AI and Quantitative Finance
+
+| Project | Description |
+|---|---|
+| **Velocity Settlement** | Bloomberg Terminal-style platform for the secondary loan market. AI parses trade documents (50+ structured data points), runs a legal risk engine, and auto-generates LMA documentation. |
+| **AcquiSense** | M&A intelligence platform. Ingests BORME, CNMV and BOE filings to detect acquisition signals from corporate events. |
+| **SanReg / RegWatch ES** | Spanish regulatory ingestion engine (AEPD, CNMC, BOE) with normalization and decay-based risk scoring. |
+| **DTW Pair Trading** | Dynamic Time Warping applied to cointegrated asset identification across crypto and equity pairs, generating market-neutral signals. |
+| **TFM — Crypto Cointegration** | Academic research applying Engle-Granger and Johansen cointegration tests to cryptocurrency pairs with walk-forward backtesting. |
+
+### Multi-Agent and AI Systems
+
+| Project | Description |
+|---|---|
+| **RASTRO** | AI-powered lost-and-found platform for the Madrid Metro. Six-node multi-agent pipeline using LangGraph with AsyncPostgresSaver on Supabase, Claude Sonnet as orchestrator, Gemini 2.0 Flash for vision, Qdrant for vector search, and NetworkX over GTFS data. |
+| **GaliciaFireguard** | Multi-agent wildfire emergency response system integrating NASA satellite data, Copernicus, and weather APIs into a real-time command dashboard. |
+| **ItemRadar** | Multi-agent matching pipeline using Gemini Vision for lost-and-found, with Telegram and WhatsApp interfaces and vector search. |
+| **adkPodcast** | Multi-agent podcast generator built on Google ADK: research, scripting, voice synthesis, and publish-ready audio. |
+
+### Full-Stack Products
+
+| Project | Description |
+|---|---|
+| **KoraTrack** | Live HR SaaS for Spanish SMEs. End-to-end ownership: discovery, architecture, full-stack implementation, deployment, and customer success. Stack: Next.js, TypeScript, PostgreSQL, Supabase, Docker. |
+| **misfinanzas** | Personal finance manager spanning a Next.js web app and Expo mobile app sharing a Supabase backend. |
+| **HomeSwapp** | Peer-to-peer marketplace with real-time auction bidding. Stack: Flutter, Django, MySQL, Stripe. |
+
+---
+
+## Technical Stack
 
 ```
-AI / Agents     LLMs · Multi-agent systems · Gemini · Claude · OpenAI · Vertex AI · Amazon Nova
-Quant / Finance Statistical arbitrage · Cointegration · DTW · Risk engines · Document parsing
-Languages       Python · JavaScript · SQL · Bash · Flutter · Java · C++
-Backend         Node.js · Django · FastAPI · Flask · Prisma
-Frontend        Next.js · React · Expo · Tailwind
-Databases       PostgreSQL · Supabase · Firebase · MySQL · Qdrant
-Infra           Docker · Ollama · n8n · GCP · Vercel
+AI and agents     LangGraph · multi-agent orchestration · Claude · Gemini · OpenAI · Vertex AI
+                  RAG · evaluation frameworks · MCP · prompt orchestration
+
+Quant and finance Statistical arbitrage · cointegration · DTW · risk engines
+                  Regulatory reporting (COREP, MTM, GL decomposition) · document parsing
+
+Languages         Python · TypeScript · JavaScript · SQL · Java · C++ · Bash · Flutter
+
+Backend           FastAPI · Node.js · Django · Flask · Prisma
+
+Frontend          Next.js 14 · React · Expo · Tailwind
+
+Data              PostgreSQL · SQL Server · SSIS · Supabase · Qdrant · Firebase · MySQL
+
+Infrastructure    Docker · CI/CD · GCP · Vercel · n8n · Ollama
 ```
 
 ---
 
-## 📌 Pinned
+## Contact
 
-> 🏆 **Most technically ambitious**: `LM_Hackathon` · `AcquiSense` · `GaliciaFireguard`
->
-> 📐 **Most research-grade**: `TFM Crypto Cointegration` · `DTW Pair Trading`
->
-> 🚀 **Most product-complete**: `misfinanzas` · `HomeSwapp` · `AprobadoEnMarcha`
-
----
-
-*Always open to collaborating on quantitative finance, AI agent systems, and anything that sits in the overlap.*
+- LinkedIn: [iñigo-valenzuela-nuñez](https://linkedin.com/in/iñigo-valenzuela-nuñez)
+- Email: vn.inigo@gmail.com
