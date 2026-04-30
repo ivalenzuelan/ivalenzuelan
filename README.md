@@ -1,8 +1,6 @@
-# Iñigo Valenzuela Nuñez
+# Iñigo V
 
-Technology consultant and full-stack engineer working at the intersection of artificial intelligence and financial systems. Currently shipping regulatory technology in a New York broker-dealer (EU banking group), with a parallel focus on multi-agent LLM architectures, quantitative research, and production-grade SaaS.
-
-Dual master's in Computer Science and Finance (Illinois Institute of Technology) and Telecommunications Engineering (Polytechnic University of Madrid, top 2% of cohort).
+Technology consultant and full-stack engineer working at the intersection of artificial intelligence and financial systems.
 
 Based in New York. Open to collaboration on quantitative finance, AI agent systems, and anything in the overlap.
 
