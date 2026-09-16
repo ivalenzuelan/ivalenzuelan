@@ -10,9 +10,9 @@ Previously a technology consultant embedded at a New York broker-dealer, buildin
 
 **[Koracheck](https://koracheck.com)**: Compares Spanish savings accounts by the net euros they pay. An agent pipeline extracts each bank's conditions and promotions and generates the comparison pages.
 
-**[Payarch](https://payarch.dev)**: Technical publication mapping the architecture of agentic payments, with long-form posts and interactive tools.
+**[Payarch](https://payarch.koratrack.com/blog/agentic-checkout-e2e/)**: Technical publication mapping the architecture of agentic payments, with long-form posts and interactive tools.
 
-**[RASTRO](https://github.com/USERNAME/rastro)**: Lost-and-found for the Madrid Metro. A six-node LangGraph pipeline where Claude orchestrates, Gemini reads item photos, Qdrant handles matching, and GTFS transit data drives probabilistic routing.
+**[ItemRadar](https://devpost.com/software/metromatch)**: Multi-agent lost-and-found for a whole city, built with three classmates for the Agent Development Kit Hackathon with Google Cloud (2025). I built the orchestrator, which routes photos to a Gemini vision agent and runs embedding search on Vertex AI. It then asks follow-up questions until only one candidate is left.
 
 ### Stack
 
